@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hi ")
+        print("Hi ")
         for d in 0...2 {
             //隨機呈現點數
             diceImageView[d].image = UIImage(systemName:"die.face.\(Int.random(in:1...6)).fill" )
